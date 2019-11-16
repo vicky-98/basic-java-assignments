@@ -13,10 +13,5 @@ public class DateChange {
 		return date1;
 	}
 	
-	public static void main(String[] args) throws ParseException {
-		Date date=new SimpleDateFormat("dd-MM-yyyy").parse("19-07-1998");
-		System.out.println(date);
-		String str=monthChange(date);
-		System.out.println(str);
-	}
+	
 }
